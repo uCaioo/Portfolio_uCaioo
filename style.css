@@ -1,0 +1,363 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-image: url(lll);
+    background-size: cover;
+    background-position: center;
+    background-color: #4F5659;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portfolio {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.portfolio span {
+    color: #05F29B;
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #05F29B;
+    transition: 0.5s;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.meu-nome {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+}
+
+h1 span {
+    color: #05F29B;
+}
+h2 {
+    color: white;
+    font-size: 50px;
+}
+
+h2 span {
+    color: #05F29B;
+}
+h4 {
+    color: white;
+    font-size: 25px;
+}
+
+h4 span {
+    color: #05F29B;
+}
+
+.meu-nome h3 {
+    color: white;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 15%;
+    background-color: black;
+}
+
+section img {
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-right: 50px;
+    box-shadow: 0px 0 10px 10px white;
+  }
+  
+
+section div h2 {
+    color: white;
+    font-size: 75px;
+}
+
+section div p {
+    color: #05F29B;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+section div button {
+    color: #05F29B;
+    background: #4F5659;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+section div button:hover {
+    background-color: black;
+    border: 5px solid #24A676;
+    transition: 0.5s;
+}
+
+.projetos {
+    background-color: #4F5659;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.projetos h2 {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+}
+
+.card {
+    background-color: #24A676;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.card img {
+    height: 100px;
+}
+
+.card h5 {
+    color: white;
+    font-size: 24px;
+}
+
+.card p {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card a {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 2px solid #4F5659;
+}
+
+.card-projetos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #000;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5 {
+    color: #04D98B;
+    font-size: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    height: 24px;
+    border-radius: 50%;
+}
+
+.social a {
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.Ferramentas {
+    background: black;
+    color: white;
+    padding: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    box-shadow: 0px 0 40px 60px #04D98B;
+  }
+  
+  
+  .Ferramentas h2 {
+    text-align: center;
+  }
+  
+  .imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .imagens img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.5s ease;
+  }
+  
+  .imagens img:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  .imagens figure {
+    text-align: center;
+    margin: 20px 50px;
+  }
+  
+  .imagens img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .imagens figcaption {
+    margin-top: 10px;
+  }
+  
+  
+
+@media screen and (max-width: 600px) {
+    section {
+        width: 100%;
+        padding: 0;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+    #home h1, h2, h4, p{
+        text-align: center;
+        margin: 5px;
+    }
+
+    #sobre {
+        height: 1200px;
+        width: 46,5vh;
+        justify-content:space-around;
+        min-height: 20px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 0 auto;
+        padding: auto;
+        text-align: center;
+    }
+    #sobre h2, p{
+        text-align: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+ 
+    #sobre img{ 
+       height: 350px;
+       margin: 0;
+       padding-top: 20px;
+       border: none;
+    }
+
+
+    #sobre div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    #projeto-id {
+        height: 1000px;
+        width: 46,5vh;
+        justify-content:space-around;
+        min-height: 200px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 0 auto;
+        padding: auto;
+    }
+
+    .card-projetos {
+        height: 1250px;
+        padding: 15px 30px;
+        display: grid;
+        grid-gap: 30px;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    #projeto-id h2,p {
+        text-align: center;
+        width: 100%;
+        
+    }
+ 
+
+}
